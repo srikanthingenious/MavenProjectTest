@@ -12,11 +12,12 @@ public class CrossoverTechTrialLoginPage {
 	static String SignIn_xpath = ".//*[@class ='login btn btn-blue btn-block ember-view']";
 	
 	
-	public static CrossoverTechTrialLoginPage  EnterEmailid(WebDriver driver){
+	public static CrossoverTechTrialLoginPage  EnterEmailid(WebDriver driver) throws InterruptedException{
 		
 		WebElement Emailid = driver.findElement(By.xpath(Emailid_xpath));
 		if(Emailid.isDisplayed() || Emailid.isEnabled()){
 			Emailid.clear();
+			Thread.sleep(2000);
 			Emailid.sendKeys("admin@test.com");
 			
 		}
