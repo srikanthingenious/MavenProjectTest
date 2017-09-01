@@ -8,5 +8,4 @@
       <class name="Com.CrossoverTech.BusinessScripts.CrossoverTechDeleteTestcases"/>
    </classes>
   </test> <!-- Test -->
-  
 </suite> <!-- Suite -->
