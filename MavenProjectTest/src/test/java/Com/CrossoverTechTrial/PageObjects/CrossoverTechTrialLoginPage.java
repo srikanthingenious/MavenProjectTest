@@ -18,6 +18,7 @@ public class CrossoverTechTrialLoginPage {
 		if(Emailid.isDisplayed() || Emailid.isEnabled()){
 			Emailid.clear();
 			Emailid.sendKeys("admin@test.com");
+			
 		}
 		else System.out.println("Emailid Textbox is not displayed");
 		return new CrossoverTechTrialLoginPage ();
