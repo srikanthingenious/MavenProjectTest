@@ -3,11 +3,22 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
+      <class name="Com.CrossoverTech.BusinessScripts.CrossoverTechCreateNewPostTestcases">
+        <methods>
+          <include name="setup"/>
+          <include name="CreateNewPostscriptExecution"/>
+        </methods>
+      </class> <!-- Com.CrossoverTech.BusinessScripts.CrossoverTechCreateNewPostTestcases -->
+      <class name="Com.CrossoverTech.BusinessScripts.CrossoverTechDeleteTestcases">
+        <methods>
+          <include name="setup"/>
+          <include name="DeletePostscriptExecution"/>
+        </methods>
+      </class> <!-- Com.CrossoverTech.BusinessScripts.CrossoverTechDeleteTestcases -->
       <class name="Com.CrossoverTech.BusinessScripts.CrossoverTechEditPostTestcases">
         <methods>
           <include name="setup"/>
           <include name="EditPostscriptExecution"/>
-          <include name="destroy"/>
         </methods>
       </class> <!-- Com.CrossoverTech.BusinessScripts.CrossoverTechEditPostTestcases -->
     </classes>
