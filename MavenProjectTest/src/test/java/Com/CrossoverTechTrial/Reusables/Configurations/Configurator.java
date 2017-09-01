@@ -25,13 +25,11 @@ public static WebDriver driver;
     
    // We Can choose the below browsers as optional firefox/chrome/ie in setup method.
     
-    public void setup(@Optional("chrome")String browser) throws Exception{
+    public void setup(@Optional("firefox")String browser) throws Exception{
         if(browser.equalsIgnoreCase("firefox")){
         	
-        	       	        	
         	System.setProperty("webdriver.gecko.driver","src\\test\\java\\Com\\CrossoverTechTrial\\Reusables\\Supporters\\Utilities\\geckodriver.exe");
-            driver = new FirefoxDriver();
-                        
+            driver = new FirefoxDriver();            
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
         }
@@ -65,11 +63,11 @@ public static WebDriver driver;
 		driver.get(property.getProperty("url"));
 		Reporter.log("Url Entered");
 		
-		Thread.sleep(6000);
+		Thread.sleep(80000);
 		CrossoverTechTrialLoginPage.EnterEmailid(driver);
 		Reporter.log("Email entered");
 		
-		Thread.sleep(2000);
+		Thread.sleep(8000);
 		CrossoverTechTrialLoginPage.EnterPassword(driver);
 		Reporter.log("Password entered");
 		

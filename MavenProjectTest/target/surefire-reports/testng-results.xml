@@ -80,12 +80,12 @@
       <![CDATA[Click on Delete in DeletePostPopup]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="67596" started-at="2017-09-01T10:55:58Z" finished-at="2017-09-01T10:57:06Z">
+  <suite name="Suite" duration-ms="73453" started-at="2017-09-01T11:20:59Z" finished-at="2017-09-01T11:22:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="67596" started-at="2017-09-01T10:55:58Z" finished-at="2017-09-01T10:57:06Z">
+    <test name="Test" duration-ms="73453" started-at="2017-09-01T11:20:59Z" finished-at="2017-09-01T11:22:12Z">
       <class name="Com.CrossoverTech.BusinessScripts.CrossoverTechCreateNewPostTestcases">
-        <test-method status="PASS" signature="CreateNewPostscriptExecution()[pri:0, instance:Com.CrossoverTech.BusinessScripts.CrossoverTechCreateNewPostTestcases@5b464ce8]" name="CreateNewPostscriptExecution" duration-ms="18067" started-at="2017-09-01T16:26:11Z" finished-at="2017-09-01T16:26:29Z">
+        <test-method status="PASS" signature="CreateNewPostscriptExecution()[pri:0, instance:Com.CrossoverTech.BusinessScripts.CrossoverTechCreateNewPostTestcases@5b464ce8]" name="CreateNewPostscriptExecution" duration-ms="18175" started-at="2017-09-01T16:51:18Z" finished-at="2017-09-01T16:51:36Z">
           <reporter-output>
             <line>
               <![CDATA[Clicked on Post]]>
@@ -115,7 +115,7 @@
         </test-method> <!-- CreateNewPostscriptExecution -->
       </class> <!-- Com.CrossoverTech.BusinessScripts.CrossoverTechCreateNewPostTestcases -->
       <class name="Com.CrossoverTech.BusinessScripts.CrossoverTechEditPostTestcases">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Com.CrossoverTech.BusinessScripts.CrossoverTechEditPostTestcases@48140564]" name="setup" is-config="true" duration-ms="13126" started-at="2017-09-01T16:25:58Z" finished-at="2017-09-01T16:26:11Z">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:Com.CrossoverTech.BusinessScripts.CrossoverTechEditPostTestcases@48140564]" name="setup" is-config="true" duration-ms="18762" started-at="2017-09-01T16:50:59Z" finished-at="2017-09-01T16:51:18Z">
           <params>
             <param index="0">
               <value>
@@ -138,7 +138,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="EditPostscriptExecution()[pri:0, instance:Com.CrossoverTech.BusinessScripts.CrossoverTechEditPostTestcases@48140564]" name="EditPostscriptExecution" duration-ms="21544" started-at="2017-09-01T16:26:29Z" finished-at="2017-09-01T16:26:51Z">
+        <test-method status="PASS" signature="EditPostscriptExecution()[pri:0, instance:Com.CrossoverTech.BusinessScripts.CrossoverTechEditPostTestcases@48140564]" name="EditPostscriptExecution" duration-ms="21687" started-at="2017-09-01T16:51:36Z" finished-at="2017-09-01T16:51:58Z">
           <reporter-output>
             <line>
               <![CDATA[Clicked on Content Tab]]>
@@ -168,7 +168,7 @@
         </test-method> <!-- EditPostscriptExecution -->
       </class> <!-- Com.CrossoverTech.BusinessScripts.CrossoverTechEditPostTestcases -->
       <class name="Com.CrossoverTech.BusinessScripts.CrossoverTechDeleteTestcases">
-        <test-method status="PASS" signature="DeletePostscriptExecution()[pri:0, instance:Com.CrossoverTech.BusinessScripts.CrossoverTechDeleteTestcases@30c7da1e]" name="DeletePostscriptExecution" duration-ms="14844" started-at="2017-09-01T16:26:51Z" finished-at="2017-09-01T16:27:06Z">
+        <test-method status="PASS" signature="DeletePostscriptExecution()[pri:0, instance:Com.CrossoverTech.BusinessScripts.CrossoverTechDeleteTestcases@30c7da1e]" name="DeletePostscriptExecution" duration-ms="14815" started-at="2017-09-01T16:51:58Z" finished-at="2017-09-01T16:52:12Z">
           <reporter-output>
             <line>
               <![CDATA[Clicked on ContentTab]]>
