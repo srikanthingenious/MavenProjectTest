@@ -14,8 +14,7 @@ public class CrossoverTechTrialNewPostPage {
 	static String PublishNow_xpath = ".//*[@class='view-actions']//section/button[1]";
 	static String verifypost_xpath=".//*[@class='posts-list']//h3";
 	static String Title = "Post on Aug";
-	static String NewImage = "\n ![](/content/images/2017/08/11.jpg)\n";
-	
+	static String NewImage = "\n ![](/content/images/2017/09/11.jpg)\n";
 	
 	
 	public static CrossoverTechTrialNewPostPage clickNewPostOption(WebDriver driver){
