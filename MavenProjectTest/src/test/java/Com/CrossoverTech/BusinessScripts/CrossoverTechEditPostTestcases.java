@@ -46,13 +46,8 @@ public class CrossoverTechEditPostTestcases extends Configurator {
 			CrossoverTechTrialContentPage.clickContentTab(driver);
 			Reporter.log("Click on Content Tab");
 			
-			/*Thread.sleep(2000);
-			CrossoverTechTrialContentPage.verifyPost(driver);
-			Reporter.log("Click on Content Tab");*/
-			
 			
 	}
 	
-
 }
 
