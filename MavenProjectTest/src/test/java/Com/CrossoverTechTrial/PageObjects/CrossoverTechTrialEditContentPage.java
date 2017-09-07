@@ -11,7 +11,7 @@ public class CrossoverTechTrialEditContentPage {
 	static String Editdescription_xpath = ".//*[@id='entry-markdown-content']/textarea";
 	static String EditTitle_xpath = ".//*[@class='ember-view gh-input']";
 
-	static String EditImage = "\n ![](/content/images/2017/08/images.jpg)";
+	static String EditImage = "\n ![](/content/images/2017/09/images.jpg)";
 	
 	
 public static CrossoverTechTrialEditContentPage editTitle(WebDriver driver) throws InterruptedException{
